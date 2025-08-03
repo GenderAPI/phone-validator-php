@@ -1,6 +1,6 @@
 # 📞 Phone Number Validation & Formatter API (PHP SDK)
 
-The `phone-validator-php` library uses the official [GenderAPI Phone Number Validation & Formatter API](https://genderapi.io/docs-phone-validation-formatter-api) to validate and format phone numbers from over 240 countries.
+The `phone-validator-php` library uses the official [GenderAPI Phone Number Validation & Formatter API](https://www.genderapi.io/docs-phone-validation-formatter-api) to validate and format phone numbers from over 240 countries.
 
 Whether your users enter phone numbers in various formats (e.g., `12128675309`, `+1 212 867 5309`, `001-212-867-5309`), this library will intelligently detect, validate, and convert the input into a standardized E.164 format (e.g., `+12128675309`).
 
@@ -135,7 +135,7 @@ $validator->validate('2128675309', 'US');
 - Supports 240+ countries and territories
 - Detects mobile vs. landline automatically
 - Great for sign-up forms, CRMs, messaging tools, and more
-- More details: [GenderAPI Docs](https://genderapi.io/docs-phone-validation-formatter-api)
+- More details: [GenderAPI Docs](https://www.genderapi.io/docs-phone-validation-formatter-api)
 
 ---
 

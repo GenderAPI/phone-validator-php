@@ -1,0 +1,24 @@
+{
+  "name": "genderapi/phone-validator",
+  "description": "PHP SDK for validating and formatting phone numbers using the GenderAPI Phone Number Validation & Formatter API (https://genderapi.io)",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "GenderApi\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "GenderAPI",
+      "homepage": "https://genderapi.io"
+    }
+  ]
+}
